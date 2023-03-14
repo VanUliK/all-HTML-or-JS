@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  background-color: #fff;
+}
+.center {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  height: 75px;
+  max-width: 1600px;
+  background-color: #222222;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+
+.l1 {
+  padding-left: 231px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.l2 {
+  padding-left: 41px;
+  padding-top: 28.21px;
+  padding-bottom: 20px;
+}
+
+.l5 {
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-right: 240px;
+}
+
+.l4 {
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-right: 33px;
+}
+.l3 {
+  padding-top: 30px;
+  padding-bottom: 22px;
+  padding-right: 33px;
+}
+
+.brand {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+.brand2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.name {
+  max-width: 377px;
+  max-height: 93px;
+  padding-left: 13px;
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weared-man {
+  display: flex;
+  background-color: #f1e4e6;
+}
+.big-header {
+  margin-bottom: 66px;
+}
+
+/*_____________small header____________*/
+
+.for-woman-photo {
+  background-image: url("../img/for-woman.png");
+  width: 360px;
+  height: 260px;
+}
+.for-woman {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: -130px;
+}
+
+.for-woman-1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+
+.for-man-photo {
+  background-image: url("../img/for-man.png");
+  width: 360px;
+  height: 260px;
+}
+
+.for-men {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: -130px;
+}
+
+.for-men-1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+
+.for-kids-photo {
+  background-image: url("../img/for-kids.png");
+  width: 360px;
+  height: 260px;
+}
+.for-kids {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: -130px;
+}
+.for-kids-1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+.accessories-photo {
+  background-image: url("../img/accesories.png");
+  width: 1140px;
+  height: 180px;
+}
+
+.accesories {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fbfbfb;
+  /* margin-top: -130px; */
+}
+
+.accesories-1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+
+.small-header-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 30px;
+  justify-content: center;
+  justify-items: start;
+  height: 595px;
+}
+
+.small-header {
+  /* display: flex;
+  justify-content: center; */
+  /* margin-bottom: 88px; */
+}
+
+/* ____________featured items____________ */
+
+.featured-items-header {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-items-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  display: flex;
+
+  margin-bottom: 6px;
+}
+.featured-items-title-txt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+  display: flex;
+
+  margin-bottom: 48px;
+}
+.featured-items-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.featured-item {
+  width: 360px;
+  height: 587px;
+  background-color: #fbfbfb;
+}
+.featured-photo-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+.featured-photo-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+.price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+.bottom-button {
+  min-width: 212px;
+  min-height: 48px;
+  margin-bottom: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid#f26376;
+  color: #f26376;
+}
